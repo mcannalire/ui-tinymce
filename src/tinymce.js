@@ -1,6 +1,7 @@
 /**
  * Binds a TinyMCE widget to <textarea> elements.
  */
+var tinymce = require('tinymce');
 angular.module('ui.tinymce', [])
   .value('uiTinymceConfig', {})
   .directive('uiTinymce', ['$rootScope', '$compile', '$timeout', '$window', '$sce', 'uiTinymceConfig', 'uiTinymceService', function($rootScope, $compile, $timeout, $window, $sce, uiTinymceConfig, uiTinymceService) {
