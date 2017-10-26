@@ -8,6 +8,7 @@
   "main": "src/tinymce.js",
   "dependencies": {
     "angular": "1.5.8",
+    "tinymce": "4.7.1"
   },
   "devDependencies": {
     "grunt": "~1.0.1",
