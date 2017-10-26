@@ -6,9 +6,10 @@
   "license": "MIT",
   "homepage": "http://angular-ui.github.com",
   "main": "src/tinymce.js",
-  "dependencies": {},
+  "dependencies": {
+    "angular": "1.5.8",
+  },
   "devDependencies": {
-    "angular": "1.4.7",
     "grunt": "~1.0.1",
     "grunt-contrib-jshint": "1.0.0",
     "grunt-contrib-uglify": "~0.11.1",
