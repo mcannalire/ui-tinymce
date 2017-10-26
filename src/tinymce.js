@@ -233,3 +233,4 @@ angular.module('ui.tinymce', [])
       return new UITinymceService();
     }
   ]);
+module.exports = 'ui.tinymce';
